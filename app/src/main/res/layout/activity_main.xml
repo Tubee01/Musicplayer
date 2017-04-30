@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicplayer.MainActivity"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:background="@color/Grey"
+    >
+
+    <TextView
+        android:id="@+id/playlists"
+        style="@style/mainTheme"
+        android:text="@string/playlists" />
+
+    <TextView
+        android:id="@+id/artists"
+        style="@style/mainTheme"
+        android:text="@string/artists"
+        />
+    <TextView
+        android:id="@+id/albums"
+        android:text="@string/albums"
+        style="@style/mainTheme"
+        />
+    <TextView
+        android:id="@+id/musicLibrary"
+        android:text="@string/music_library"
+        style="@style/mainTheme"
+        />
+    <TextView
+        android:id="@+id/favourites"
+        android:text="@string/favourites"
+        style="@style/mainTheme"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/music_player" />
+
+        <TextView
+            style="@style/textViews1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="@string/m_player"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_toEndOf="@+id/imageView" />
+    </RelativeLayout>
+
+</LinearLayout>

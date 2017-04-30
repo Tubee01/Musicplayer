@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Grey">
+
+        <TextView
+            android:id="@+id/playlists"
+            style="@style/barText1"
+            android:text="@string/playlists"
+            />
+
+        <TextView
+            android:id="@+id/albums"
+            style="@style/barText1"
+            android:layout_toRightOf="@id/playlists"
+            android:text="@string/albums"
+            />
+        <TextView
+            android:id="@+id/musicLibrary"
+            style="@style/barText1"
+            android:layout_toRightOf="@id/albums"
+            android:text="@string/music_library"
+             />
+        <TextView
+            android:id="@+id/favourites"
+            style="@style/barText1"
+            android:layout_toRightOf="@id/musicLibrary"
+            android:text="@string/favourites"
+             />
+
+
+
+    </RelativeLayout>
+    <TextView
+        style="@style/textViews"
+        android:text="@string/artists_text"/>
+</LinearLayout>

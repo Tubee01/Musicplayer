@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Music player</string>
+    <string name="artists">Artists</string>
+    <string name="playlists">Playlists</string>
+    <string name="albums">Albums</string>
+    <string name="music_library">Music Library</string>
+    <string name="favourites">Favourites</string>
+    <string name="albums_text">Here could we find albums in order A-Z,all the albums what app could find on our device.</string>
+    <string name="m_player">Here would be the player and would be there a global (toolbar)player</string>
+    <string name="favourites_text"><![CDATA[Listed the song(s) <-- marked as favourite(s), or the most played]]></string>
+    <string name="artists_text">Artist(s) would be listed here in A-Z or most played</string>
+    <string name="playlists_text">Here could you make new playlist(s) or find it.</string>
+</resources>
