@@ -36,4 +36,7 @@
     style="@style/textViews"
     android:text="@string/playlists_text"
     />
+     <TextView
+        style="@style/textViews"
+        android:text="@string/playlists_m"/>
 </LinearLayout>
